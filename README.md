@@ -1,5 +1,12 @@
 #百度地图定位Android版插件
 本插件利用百度地图提供的定位功能进行Android版手机定位。
+
+####改动了哪些？
+1. 原插件是否成功定位没有统一标识，增加了status属性（可看后续例子）
+2. 更新到百度最新SDK
+3. 修正了定位失败的错误描述。其实原版本是直接参照百度范例来的，百度范例本身就不准确，我根据文档逐个核实定位类型，修改了错误描述，使之更准确。
+4. 把原版本的lontitude改为longitude，可能是拼写错误吧。
+
   
 ####为什么没有iOS版？
 因为iOS版有官方的定位插件_cordova-plugin-geolocation_可以使用。
@@ -58,6 +65,7 @@ ionic plugin ls
 
 ```
 ionic plugin rm com.qdc.plugins.baidu.location
+```
 
 ####六. Ionic 2 实例
 ```
