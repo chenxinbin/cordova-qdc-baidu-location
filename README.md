@@ -58,12 +58,10 @@ ionic plugin ls
 
 ```
 ionic plugin rm com.qdc.plugins.baidu.location
-
+```
 ####六. Ionic 2 实例
 ```
 declare let baidu_location; //import后马上声明
-
-…
 
   getCurrentPosition()
   {
