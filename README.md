@@ -71,8 +71,6 @@ ionic plugin rm com.qdc.plugins.baidu.location
 ```
 declare let baidu_location; //import后马上声明
 
-…
-
   getCurrentPosition()
   {
       //console.log("android");
