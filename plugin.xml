@@ -61,8 +61,7 @@
         <config-file target="config.xml" parent="/*">
             <feature name="BaiduPush">
                 <param name="ios-package" value="BaiduPushPlugin"/>
-            </feature>:q
-I
+            </feature>
         </config-file>
         
         <header-file src="src/ios/BaiduPushPlugin.h" />
